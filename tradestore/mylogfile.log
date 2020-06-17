@@ -1,0 +1,1054 @@
+2020-06-17 08:05:49.017  INFO 5376 --- [main] c.d.t.job.TradeStoreSchedulerTest        : Starting TradeStoreSchedulerTest on VAIO with PID 5376 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 08:05:49.044  INFO 5376 --- [main] c.d.t.job.TradeStoreSchedulerTest        : No active profile set, falling back to default profiles: default
+2020-06-17 08:05:52.646  INFO 5376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 08:05:53.152  INFO 5376 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-06-17 08:05:53.152  INFO 5376 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-06-17 08:05:53.182  INFO 5376 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 29 ms
+2020-06-17 08:05:53.235  INFO 5376 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-06-17 08:05:53.243  INFO 5376 --- [pool-2-thread-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 08:05:53.255  INFO 5376 --- [main] c.d.t.job.TradeStoreSchedulerTest        : Started TradeStoreSchedulerTest in 5.309 seconds (JVM running for 7.989)
+2020-06-17 08:05:53.319  INFO 5376 --- [main] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 08:05:53.368  INFO 5376 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 08:14:03.145  INFO 9716 --- [main] c.d.t.job.TradeStoreSchedulerTest        : Starting TradeStoreSchedulerTest on VAIO with PID 9716 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 08:14:03.149  INFO 9716 --- [main] c.d.t.job.TradeStoreSchedulerTest        : No active profile set, falling back to default profiles: default
+2020-06-17 08:14:04.399  INFO 9716 --- [main] c.d.t.job.TradeStoreSchedulerTest        : Started TradeStoreSchedulerTest in 2.261 seconds (JVM running for 4.466)
+2020-06-17 08:14:04.514  INFO 9716 --- [main] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 08:40:50.427  INFO 4904 --- [main] c.d.t.service.TradeStoreServiceImplTest  : Starting TradeStoreServiceImplTest on VAIO with PID 4904 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 08:40:50.502  INFO 4904 --- [main] c.d.t.service.TradeStoreServiceImplTest  : No active profile set, falling back to default profiles: default
+2020-06-17 08:40:52.662  INFO 4904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 08:40:53.253  INFO 4904 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-06-17 08:40:53.254  INFO 4904 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-06-17 08:40:53.282  INFO 4904 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 28 ms
+2020-06-17 08:40:53.375  INFO 4904 --- [main] c.d.t.service.TradeStoreServiceImplTest  : Started TradeStoreServiceImplTest in 3.727 seconds (JVM running for 6.945)
+2020-06-17 08:40:53.483  INFO 4904 --- [main] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 08:40:53.490  INFO 4904 --- [main] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 08:40:53.490  INFO 4904 --- [main] c.d.t.service.TradeStoreServiceImpl      : existing record and new record have same version so updating existing record with new record into database
+2020-06-17 08:40:54.041  INFO 4904 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:18:44.131  INFO 4944 --- [main] c.d.t.TradestoreApplicationTests         : Starting TradestoreApplicationTests on VAIO with PID 4944 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 10:18:44.134  INFO 4944 --- [main] c.d.t.TradestoreApplicationTests         : No active profile set, falling back to default profiles: default
+2020-06-17 10:18:45.579  INFO 4944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-17 10:18:45.770  INFO 4944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171ms. Found 1 JPA repository interfaces.
+2020-06-17 10:18:47.601  INFO 4944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:18:47.673  INFO 4944 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-17 10:18:47.701  INFO 4944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-17 10:18:48.186  INFO 4944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-17 10:18:48.430  INFO 4944 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-17 10:18:48.585  INFO 4944 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-17 10:18:49.063  INFO 4944 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-17 10:18:49.193  WARN 4944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-17 10:18:50.259  INFO 4944 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-17 10:18:50.872  INFO 4944 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2020-06-17 10:18:51.108  INFO 4944 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-17 10:18:51.413  INFO 4944 --- [task-1] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.db.tradestore.model.TradeStore (class must be instantiated by Interceptor)
+2020-06-17 10:18:52.041  INFO 4944 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-17 10:18:52.058  INFO 4944 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 10:18:52.682  INFO 4944 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-17 10:18:52.699  INFO 4944 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:18:52.705  INFO 4944 --- [main] c.d.t.TradestoreApplicationTests         : Started TradestoreApplicationTests in 9.378 seconds (JVM running for 11.588)
+2020-06-17 10:18:53.232  WARN 4944 --- [scheduling-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-06-17 10:18:53.233 ERROR 4944 --- [scheduling-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-06-17 10:18:53.248  WARN 4944 --- [scheduling-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-06-17 10:18:53.249 ERROR 4944 --- [scheduling-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-06-17 10:18:53.262  INFO 4944 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 10:18:53.263  INFO 4944 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-06-17 10:18:53.266  WARN 4944 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-06-17 10:18:53.268 ERROR 4944 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-06-17 10:18:53.270  WARN 4944 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-06-17 10:18:53.270 ERROR 4944 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-06-17 10:18:53.268 ERROR 4944 --- [scheduling-1] o.s.orm.jpa.EntityManagerFactoryUtils    : Failed to release JPA EntityManager
+
+org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:204) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.close(LogicalConnectionManagedImpl.java:244) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.close(JdbcCoordinatorImpl.java:175) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.close(AbstractSharedSessionContract.java:342) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.closeWithoutOpenChecks(SessionImpl.java:374) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.close(SessionImpl.java:359) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy102.close(Unknown Source) ~[na:na]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.closeEntityManager(EntityManagerFactoryUtils.java:427) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:443) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy108.getResultList(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:126) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:154) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:142) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$QueryMethodInvoker.invoke(QueryExecutorMethodInterceptor.java:195) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:149) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy106.findByExpiryFlag(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy76.findByExpiryFlag(Unknown Source) ~[na:na]
+	at com.db.tradestore.job.TradeStoreScheduler.updateExpiryRecords(TradeStoreScheduler.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.clearWarnings(JdbcConnection.java:703) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:267) ~[HikariCP-3.4.5.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.closeConnection(DatasourceConnectionProviderImpl.java:127) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.releaseConnection(NonContextualJdbcConnectionAccess.java:49) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:201) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	... 55 common frames omitted
+
+2020-06-17 10:18:53.272  WARN 4944 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-06-17 10:18:53.273  INFO 4944 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-17 10:18:53.273  INFO 4944 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:18:53.274 ERROR 4944 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'entityManagerFactory': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:212) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:621) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:378) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:168) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:150) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:149) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy106.findByExpiryFlag(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy76.findByExpiryFlag(Unknown Source) ~[na:na]
+	at com.db.tradestore.job.TradeStoreScheduler.updateExpiryRecords(TradeStoreScheduler.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2020-06-17 10:18:53.274  INFO 4944 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-17 10:18:53.286  INFO 4944 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-17 10:26:20.915  INFO 10640 --- [main] c.d.t.TradestoreApplicationTests         : Starting TradestoreApplicationTests on VAIO with PID 10640 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 10:26:20.917  INFO 10640 --- [main] c.d.t.TradestoreApplicationTests         : No active profile set, falling back to default profiles: default
+2020-06-17 10:26:23.453  INFO 10640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-17 10:26:23.646  INFO 10640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 173ms. Found 1 JPA repository interfaces.
+2020-06-17 10:26:25.317  INFO 10640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:26:25.374  INFO 10640 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-17 10:26:25.396  INFO 10640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-17 10:26:25.862  INFO 10640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-17 10:26:26.109  INFO 10640 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-17 10:26:26.282  INFO 10640 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-17 10:26:26.759  INFO 10640 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-17 10:26:26.924  WARN 10640 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-17 10:26:28.366  INFO 10640 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-17 10:26:28.522  INFO 10640 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2020-06-17 10:26:28.857  INFO 10640 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-17 10:26:29.428  INFO 10640 --- [task-1] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.db.tradestore.model.TradeStore (class must be instantiated by Interceptor)
+2020-06-17 10:26:30.033  INFO 10640 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-17 10:26:30.048  INFO 10640 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 10:26:30.612  INFO 10640 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-17 10:26:30.629  INFO 10640 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:26:30.638  INFO 10640 --- [main] c.d.t.TradestoreApplicationTests         : Started TradestoreApplicationTests in 10.951 seconds (JVM running for 13.993)
+2020-06-17 10:26:31.149  INFO 10640 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 10:26:31.151  INFO 10640 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-06-17 10:26:31.155  WARN 10640 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-06-17 10:26:31.156 ERROR 10640 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-06-17 10:26:31.158  WARN 10640 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-06-17 10:26:31.158 ERROR 10640 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-06-17 10:26:31.160  WARN 10640 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-06-17 10:26:31.161  INFO 10640 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-17 10:26:31.161  INFO 10640 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:26:31.163  INFO 10640 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-17 10:26:31.174  INFO 10640 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-17 10:34:32.627  INFO 11148 --- [main] com.db.tradestore.TradestoreApplication  : Starting TradestoreApplication on VAIO with PID 11148 (E:\AWS_client\Interviews\DB\tradestore\tradestore\target\classes started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 10:34:32.635  INFO 11148 --- [main] com.db.tradestore.TradestoreApplication  : No active profile set, falling back to default profiles: default
+2020-06-17 10:34:34.977  INFO 11148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-17 10:34:35.222  INFO 11148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 197ms. Found 1 JPA repository interfaces.
+2020-06-17 10:35:00.136  INFO 11148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-17 10:35:00.348  INFO 11148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-17 10:35:00.349  INFO 11148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 10:35:01.051  INFO 11148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-17 10:35:01.052  INFO 11148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 28234 ms
+2020-06-17 10:35:01.210  INFO 11148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-17 10:35:01.662  INFO 11148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-17 10:35:01.681  INFO 11148 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2020-06-17 10:35:02.654  INFO 11148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:35:02.683  INFO 11148 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-17 10:35:02.936  INFO 11148 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-17 10:35:03.092  WARN 11148 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-17 10:35:03.271  INFO 11148 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-17 10:35:03.901  INFO 11148 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-17 10:35:04.495  INFO 11148 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-17 10:35:05.206  INFO 11148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 10:35:05.214  INFO 11148 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-17 10:35:06.039  INFO 11148 --- [task-1] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.db.tradestore.model.TradeStore (class must be instantiated by Interceptor)
+2020-06-17 10:35:06.840  INFO 11148 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-17 10:35:06.861  INFO 11148 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 10:35:07.977  INFO 11148 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-17 10:35:08.015  INFO 11148 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:35:08.022  INFO 11148 --- [main] com.db.tradestore.TradestoreApplication  : Started TradestoreApplication in 36.757 seconds (JVM running for 37.942)
+2020-06-17 10:35:58.006  INFO 11148 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:36:48.006  INFO 11148 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:37:38.006  INFO 11148 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:38:28.006  INFO 11148 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:39:18.006  INFO 11148 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:40:08.006  INFO 11148 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:41:14.576  INFO 7852 --- [main] com.db.tradestore.TradestoreApplication  : Starting TradestoreApplication on VAIO with PID 7852 (E:\AWS_client\Interviews\DB\tradestore\tradestore\target\classes started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 10:41:14.582  INFO 7852 --- [main] com.db.tradestore.TradestoreApplication  : No active profile set, falling back to default profiles: default
+2020-06-17 10:41:16.011  INFO 7852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-17 10:41:16.161  INFO 7852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132ms. Found 1 JPA repository interfaces.
+2020-06-17 10:41:18.170  INFO 7852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-17 10:41:18.203  INFO 7852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-17 10:41:18.203  INFO 7852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 10:41:18.471  INFO 7852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-17 10:41:18.471  INFO 7852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3778 ms
+2020-06-17 10:41:18.659  INFO 7852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-17 10:41:19.052  INFO 7852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-17 10:41:19.069  INFO 7852 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2020-06-17 10:41:19.411  INFO 7852 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:41:19.437  INFO 7852 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-17 10:41:19.598  INFO 7852 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-17 10:41:19.743  WARN 7852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-17 10:41:19.777  INFO 7852 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-17 10:41:20.225  INFO 7852 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-17 10:41:20.571  INFO 7852 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-17 10:41:20.711  INFO 7852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 10:41:20.738  INFO 7852 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-17 10:41:21.377  INFO 7852 --- [task-1] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.db.tradestore.model.TradeStore (class must be instantiated by Interceptor)
+2020-06-17 10:41:22.087  INFO 7852 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-17 10:41:22.104  INFO 7852 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 10:41:22.702  INFO 7852 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-17 10:41:22.725  INFO 7852 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:41:22.733  INFO 7852 --- [main] com.db.tradestore.TradestoreApplication  : Started TradestoreApplication in 9.165 seconds (JVM running for 10.089)
+2020-06-17 10:41:59.084  INFO 7852 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 10:41:59.085  INFO 7852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-17 10:41:59.118  INFO 7852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2020-06-17 10:42:00.581  INFO 7852 --- [http-nio-8080-exec-1] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 10:42:00.583  INFO 7852 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 10:42:00.610  INFO 7852 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : Record with new Trade id so inserting into databse
+2020-06-17 10:42:12.724  INFO 7852 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:42:12.753 ERROR 7852 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.orm.jpa.JpaSystemException: No default constructor for entity:  : com.db.tradestore.model.TradeStore; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.db.tradestore.model.TradeStore
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:353) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:149) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy90.findByExpiryFlag(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy63.findByExpiryFlag(Unknown Source) ~[na:na]
+	at com.db.tradestore.job.TradeStoreScheduler.updateExpiryRecords(TradeStoreScheduler.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.hibernate.InstantiationException: No default constructor for entity:  : com.db.tradestore.model.TradeStore
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:85) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:105) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.instantiate(AbstractEntityTuplizer.java:704) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.instantiate(AbstractEntityPersister.java:5162) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1596) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1580) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.instanceNotYetLoaded(Loader.java:1743) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.getRow(Loader.java:1600) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.getRowFromResultSet(Loader.java:743) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:1006) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:962) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:352) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2831) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2813) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2645) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2640) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2139) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1163) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:173) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1533) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:165) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:409) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy92.getResultList(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:126) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:154) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:142) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$QueryMethodInvoker.invoke(QueryExecutorMethodInterceptor.java:195) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 27 common frames omitted
+
+2020-06-17 10:42:18.313  INFO 7852 --- [http-nio-8080-exec-5] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 10:42:18.313  INFO 7852 --- [http-nio-8080-exec-5] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 10:42:18.354 ERROR 7852 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: No default constructor for entity:  : com.db.tradestore.model.TradeStore; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.db.tradestore.model.TradeStore] with root cause
+
+org.hibernate.InstantiationException: No default constructor for entity:  : com.db.tradestore.model.TradeStore
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:85) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:105) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.instantiate(AbstractEntityTuplizer.java:704) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.instantiate(AbstractEntityPersister.java:5162) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1596) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1580) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.instanceNotYetLoaded(Loader.java:1743) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.getRow(Loader.java:1600) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.getRowFromResultSet(Loader.java:743) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:1006) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:962) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:352) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2831) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2813) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2645) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2640) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2139) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1163) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:173) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1533) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1581) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:196) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:154) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:142) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$QueryMethodInvoker.invoke(QueryExecutorMethodInterceptor.java:195) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:149) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy90.findByTradeId(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy63.findByTradeId(Unknown Source) ~[na:na]
+	at com.db.tradestore.service.TradeStoreServiceImpl.Trade(TradeStoreServiceImpl.java:27) ~[classes/:na]
+	at com.db.tradestore.controller.TradeStoreContoller.Trade(TradeStoreContoller.java:42) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2020-06-17 10:43:02.723  INFO 7852 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:43:02.730 ERROR 7852 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.orm.jpa.JpaSystemException: No default constructor for entity:  : com.db.tradestore.model.TradeStore; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.db.tradestore.model.TradeStore
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:353) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:255) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:149) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy90.findByExpiryFlag(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy63.findByExpiryFlag(Unknown Source) ~[na:na]
+	at com.db.tradestore.job.TradeStoreScheduler.updateExpiryRecords(TradeStoreScheduler.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.hibernate.InstantiationException: No default constructor for entity:  : com.db.tradestore.model.TradeStore
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:85) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:105) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.instantiate(AbstractEntityTuplizer.java:704) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.instantiate(AbstractEntityPersister.java:5162) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1596) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1580) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.instanceNotYetLoaded(Loader.java:1743) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.getRow(Loader.java:1600) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.getRowFromResultSet(Loader.java:743) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:1006) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:962) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:352) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2831) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2813) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2645) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2640) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:338) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2139) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:1163) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:173) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1533) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:165) ~[hibernate-core-5.4.17.Final.jar:5.4.17.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:409) ~[spring-orm-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at com.sun.proxy.$Proxy92.getResultList(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:126) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:154) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:142) ~[spring-data-jpa-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$QueryMethodInvoker.invoke(QueryExecutorMethodInterceptor.java:195) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.3.1.RELEASE.jar:2.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 27 common frames omitted
+
+2020-06-17 10:44:04.859  INFO 10196 --- [main] com.db.tradestore.TradestoreApplication  : Starting TradestoreApplication on VAIO with PID 10196 (E:\AWS_client\Interviews\DB\tradestore\tradestore\target\classes started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 10:44:04.865  INFO 10196 --- [main] com.db.tradestore.TradestoreApplication  : No active profile set, falling back to default profiles: default
+2020-06-17 10:44:06.268  INFO 10196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-17 10:44:06.409  INFO 10196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126ms. Found 1 JPA repository interfaces.
+2020-06-17 10:44:08.067  INFO 10196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-17 10:44:08.087  INFO 10196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-17 10:44:08.087  INFO 10196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 10:44:08.314  INFO 10196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-17 10:44:08.315  INFO 10196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3365 ms
+2020-06-17 10:44:08.455  INFO 10196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-17 10:44:08.857  INFO 10196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-17 10:44:08.871  INFO 10196 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2020-06-17 10:44:09.168  INFO 10196 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:44:09.191  INFO 10196 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-17 10:44:09.378  INFO 10196 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-17 10:44:09.430  WARN 10196 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-17 10:44:09.524  INFO 10196 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-17 10:44:09.957  INFO 10196 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-17 10:44:10.296  INFO 10196 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-17 10:44:10.318  INFO 10196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 10:44:10.324  INFO 10196 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-17 10:44:11.703  INFO 10196 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-17 10:44:11.717  INFO 10196 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 10:44:12.283  INFO 10196 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-17 10:44:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:44:12.309  INFO 10196 --- [main] com.db.tradestore.TradestoreApplication  : Started TradestoreApplication in 8.643 seconds (JVM running for 9.616)
+2020-06-17 10:44:35.995  INFO 10196 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 10:44:35.996  INFO 10196 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-17 10:44:36.020  INFO 10196 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2020-06-17 10:44:36.213  INFO 10196 --- [http-nio-8080-exec-4] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 10:44:36.216  INFO 10196 --- [http-nio-8080-exec-4] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 10:44:36.269  INFO 10196 --- [http-nio-8080-exec-4] c.d.t.service.TradeStoreServiceImpl      : Record with new Trade id so inserting into databse
+2020-06-17 10:44:49.052  INFO 10196 --- [http-nio-8080-exec-1] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 10:44:49.053  INFO 10196 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 10:44:49.367  INFO 10196 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 10:44:49.368  INFO 10196 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : existing record with lower version id  so inserting new record into database
+2020-06-17 10:45:02.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:45:02.303  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:45:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:45:08.344  INFO 10196 --- [http-nio-8080-exec-9] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 10:45:08.345  INFO 10196 --- [http-nio-8080-exec-9] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 10:45:08.348  INFO 10196 --- [http-nio-8080-exec-9] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 10:45:08.349  INFO 10196 --- [http-nio-8080-exec-9] c.d.t.service.TradeStoreServiceImpl      : existing record with lower version id  so inserting new record into database
+2020-06-17 10:45:52.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:45:52.301  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:45:52.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:45:52.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:46:42.300  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:46:42.309  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:46:42.310  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:46:42.310  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:47:31.236  INFO 10196 --- [http-nio-8080-exec-6] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 10:47:31.238  INFO 10196 --- [http-nio-8080-exec-6] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 10:47:31.243  INFO 10196 --- [http-nio-8080-exec-6] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 10:47:31.243  INFO 10196 --- [http-nio-8080-exec-6] c.d.t.service.TradeStoreServiceImpl      : existing record with lower version id  so inserting new record into database
+2020-06-17 10:47:32.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:47:32.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:47:32.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:47:32.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:47:32.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:48:18.030  INFO 10196 --- [http-nio-8080-exec-8] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 10:48:18.031  INFO 10196 --- [http-nio-8080-exec-8] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 10:48:18.034  INFO 10196 --- [http-nio-8080-exec-8] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 10:48:18.035  INFO 10196 --- [http-nio-8080-exec-8] c.d.t.service.TradeStoreServiceImpl      : existing record and new record have same version so updating existing record with new record into database
+2020-06-17 10:48:22.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:48:22.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:48:22.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:48:22.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:48:22.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:48:45.211  INFO 10196 --- [http-nio-8080-exec-9] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 10:48:45.212  INFO 10196 --- [http-nio-8080-exec-9] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 10:48:45.214  INFO 10196 --- [http-nio-8080-exec-9] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 10:48:45.215  INFO 10196 --- [http-nio-8080-exec-9] c.d.t.service.TradeStoreServiceImpl      : new record has lower version of existing record so sending error message
+2020-06-17 10:49:12.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:49:12.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:49:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:49:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:49:12.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:50:02.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:50:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:50:02.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:50:02.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:50:02.308  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:50:52.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:50:52.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:50:52.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:50:52.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:50:52.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:51:42.301  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:51:42.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:51:42.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:51:42.308  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:51:42.309  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:52:00.962  INFO 10196 --- [http-nio-8080-exec-6] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 10:52:32.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:52:32.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:52:32.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:52:32.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:52:32.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:53:22.300  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:53:22.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:53:22.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:53:22.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:53:22.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:54:12.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:54:12.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:54:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:54:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:54:12.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:55:02.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:55:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:55:02.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:55:02.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:55:02.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:55:52.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:55:52.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:55:52.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:55:52.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:55:52.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:56:42.300  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:56:42.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:56:42.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:56:42.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:56:42.308  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:57:32.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:57:32.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:57:32.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:57:32.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:57:32.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:58:22.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:58:22.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:58:22.303  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:58:22.303  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:58:22.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:59:12.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 10:59:12.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:59:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:59:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 10:59:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:00:02.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:00:02.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:00:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:00:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:00:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:00:52.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:00:52.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:00:52.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:00:52.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:00:52.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:01:42.300  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:01:42.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:01:42.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:01:42.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:01:42.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:02:32.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:02:32.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:02:32.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:02:32.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:02:32.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:03:22.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:03:22.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:03:22.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:03:22.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:03:22.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:04:12.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:04:12.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:04:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:04:12.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:04:12.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:05:02.300  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:05:02.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:05:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:05:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:05:02.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:05:52.300  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:05:52.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:05:52.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:05:52.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:05:52.308  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:06:42.300  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:06:42.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:06:42.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:06:42.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:06:42.307  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:07:32.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:07:32.303  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:07:32.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:07:32.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:07:32.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:08:22.300  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:08:22.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:08:22.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:08:22.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:08:22.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:09:12.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:09:12.303  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:09:12.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:09:12.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:09:12.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:10:02.300  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:10:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:10:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:10:02.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:10:02.306  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:10:52.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:10:52.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:10:52.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:10:52.303  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:10:52.303  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:11:42.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:11:42.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:11:42.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:11:42.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:11:42.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:12:32.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:12:32.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:12:32.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:12:32.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:12:32.303  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:13:22.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:13:22.303  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:13:22.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:13:22.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:13:22.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:14:12.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:14:12.308  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:14:12.308  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:14:12.309  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:14:12.309  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:15:02.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:15:02.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:15:02.304  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:15:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:15:02.305  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:15:52.299  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 11:15:52.301  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:15:52.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:15:52.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 11:15:52.302  INFO 10196 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 14:37:25.189  INFO 8004 --- [main] c.d.t.c.TradeStoreContollerTest          : Starting TradeStoreContollerTest on VAIO with PID 8004 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 14:37:25.215  INFO 8004 --- [main] c.d.t.c.TradeStoreContollerTest          : No active profile set, falling back to default profiles: default
+2020-06-17 14:37:32.609  INFO 8004 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 14:37:33.416  INFO 8004 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-06-17 14:37:33.417  INFO 8004 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-06-17 14:37:33.455  INFO 8004 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 38 ms
+2020-06-17 14:37:33.568  INFO 8004 --- [main] c.d.t.c.TradeStoreContollerTest          : Started TradeStoreContollerTest in 9.802 seconds (JVM running for 13.875)
+2020-06-17 14:37:57.244  WARN 8004 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-06-17 14:42:28.897  INFO 15696 --- [main] c.d.t.c.TradeStoreContollerTest          : Starting TradeStoreContollerTest on VAIO with PID 15696 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 14:42:28.922  INFO 15696 --- [main] c.d.t.c.TradeStoreContollerTest          : No active profile set, falling back to default profiles: default
+2020-06-17 14:42:35.822  INFO 15696 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 14:42:36.633  INFO 15696 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-06-17 14:42:36.634  INFO 15696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-06-17 14:42:36.672  INFO 15696 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 38 ms
+2020-06-17 14:42:36.771  INFO 15696 --- [main] c.d.t.c.TradeStoreContollerTest          : Started TradeStoreContollerTest in 9.703 seconds (JVM running for 13.853)
+2020-06-17 14:46:49.180  INFO 9940 --- [main] c.d.t.c.TradeStoreContollerTest          : Starting TradeStoreContollerTest on VAIO with PID 9940 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 14:46:49.194  INFO 9940 --- [main] c.d.t.c.TradeStoreContollerTest          : No active profile set, falling back to default profiles: default
+2020-06-17 14:46:52.194  INFO 9940 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 14:46:52.718  INFO 9940 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-06-17 14:46:52.719  INFO 9940 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-06-17 14:46:52.745  INFO 9940 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 26 ms
+2020-06-17 14:46:52.812  INFO 9940 --- [main] c.d.t.c.TradeStoreContollerTest          : Started TradeStoreContollerTest in 4.62 seconds (JVM running for 6.907)
+2020-06-17 14:46:53.181  INFO 9940 --- [main] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 14:46:53.222  INFO 9940 --- [main] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 14:46:53.249  INFO 9940 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 14:48:30.164  INFO 5396 --- [main] c.d.t.c.TradeStoreContollerTest          : Starting TradeStoreContollerTest on VAIO with PID 5396 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 14:48:30.174  INFO 5396 --- [main] c.d.t.c.TradeStoreContollerTest          : No active profile set, falling back to default profiles: default
+2020-06-17 14:48:32.883  INFO 5396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 14:48:33.437  INFO 5396 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-06-17 14:48:33.438  INFO 5396 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-06-17 14:48:33.465  INFO 5396 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 26 ms
+2020-06-17 14:48:33.527  INFO 5396 --- [main] c.d.t.c.TradeStoreContollerTest          : Started TradeStoreContollerTest in 4.301 seconds (JVM running for 6.476)
+2020-06-17 14:48:34.006  INFO 5396 --- [main] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 14:48:34.058  INFO 5396 --- [main] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 14:48:34.125  INFO 5396 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 14:50:14.900  INFO 10124 --- [main] c.d.t.c.TradeStoreContollerTest          : Starting TradeStoreContollerTest on VAIO with PID 10124 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 14:50:14.910  INFO 10124 --- [main] c.d.t.c.TradeStoreContollerTest          : No active profile set, falling back to default profiles: default
+2020-06-17 14:50:17.683  INFO 10124 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 14:50:18.222  INFO 10124 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-06-17 14:50:18.222  INFO 10124 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-06-17 14:50:18.250  INFO 10124 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 28 ms
+2020-06-17 14:50:18.331  INFO 10124 --- [main] c.d.t.c.TradeStoreContollerTest          : Started TradeStoreContollerTest in 4.358 seconds (JVM running for 6.664)
+2020-06-17 14:50:19.067  INFO 10124 --- [main] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 14:50:19.095  INFO 10124 --- [main] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 14:50:19.113  INFO 10124 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:03:34.053  INFO 13712 --- [main] com.db.tradestore.TradestoreApplication  : Starting TradestoreApplication on VAIO with PID 13712 (E:\AWS_client\Interviews\DB\tradestore\tradestore\target\classes started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 15:03:34.059  INFO 13712 --- [main] com.db.tradestore.TradestoreApplication  : No active profile set, falling back to default profiles: default
+2020-06-17 15:03:35.690  INFO 13712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-17 15:03:35.841  INFO 13712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132ms. Found 1 JPA repository interfaces.
+2020-06-17 15:03:37.652  INFO 13712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-17 15:03:37.676  INFO 13712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-17 15:03:37.677  INFO 13712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 15:03:37.896  INFO 13712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-17 15:03:37.898  INFO 13712 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3734 ms
+2020-06-17 15:03:38.061  INFO 13712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-17 15:03:38.359  INFO 13712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-17 15:03:38.372  INFO 13712 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2020-06-17 15:03:38.675  INFO 13712 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:03:38.697  INFO 13712 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-17 15:03:38.889  INFO 13712 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-17 15:03:39.069  INFO 13712 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-17 15:03:39.068  WARN 13712 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-17 15:03:39.721  INFO 13712 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-17 15:03:40.157  INFO 13712 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-17 15:03:40.387  INFO 13712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 15:03:40.393  INFO 13712 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-17 15:03:41.558  INFO 13712 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-17 15:03:41.573  INFO 13712 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 15:03:42.088  INFO 13712 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-17 15:03:42.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:03:42.114  INFO 13712 --- [main] com.db.tradestore.TradestoreApplication  : Started TradestoreApplication in 9.196 seconds (JVM running for 10.123)
+2020-06-17 15:04:29.632  INFO 13712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 15:04:29.633  INFO 13712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-17 15:04:29.652  INFO 13712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-06-17 15:04:29.864  INFO 13712 --- [http-nio-8080-exec-1] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:04:29.866  INFO 13712 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:04:29.928  INFO 13712 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : Record with new Trade id so inserting into databse
+2020-06-17 15:04:32.104  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:04:32.117  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:04:41.665  INFO 13712 --- [http-nio-8080-exec-5] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:04:41.665  INFO 13712 --- [http-nio-8080-exec-5] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:04:41.679  INFO 13712 --- [http-nio-8080-exec-5] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:04:41.679  INFO 13712 --- [http-nio-8080-exec-5] c.d.t.service.TradeStoreServiceImpl      : existing record with lower version id  so inserting new record into database
+2020-06-17 15:04:55.151  INFO 13712 --- [http-nio-8080-exec-9] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:04:55.151  INFO 13712 --- [http-nio-8080-exec-9] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:04:55.154  INFO 13712 --- [http-nio-8080-exec-9] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:04:55.155  INFO 13712 --- [http-nio-8080-exec-9] c.d.t.service.TradeStoreServiceImpl      : existing record with lower version id  so inserting new record into database
+2020-06-17 15:05:22.104  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:05:22.106  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:05:22.107  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:05:22.107  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:05:34.189  INFO 13712 --- [http-nio-8080-exec-3] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:05:34.190  INFO 13712 --- [http-nio-8080-exec-3] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:05:34.196  INFO 13712 --- [http-nio-8080-exec-3] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:05:34.196  INFO 13712 --- [http-nio-8080-exec-3] c.d.t.service.TradeStoreServiceImpl      : existing record and new record have same version so updating existing record with new record into database
+2020-06-17 15:05:52.122  INFO 13712 --- [http-nio-8080-exec-8] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:05:52.124  INFO 13712 --- [http-nio-8080-exec-8] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:05:52.127  INFO 13712 --- [http-nio-8080-exec-8] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:05:52.128  INFO 13712 --- [http-nio-8080-exec-8] c.d.t.service.TradeStoreServiceImpl      : existing record with lower version id  so inserting new record into database
+2020-06-17 15:06:12.104  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:06:12.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:06:12.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:06:12.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:06:12.113  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:06:13.743  INFO 13712 --- [http-nio-8080-exec-6] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:06:13.744  INFO 13712 --- [http-nio-8080-exec-6] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:06:13.746  INFO 13712 --- [http-nio-8080-exec-6] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:06:13.746  INFO 13712 --- [http-nio-8080-exec-6] c.d.t.service.TradeStoreServiceImpl      : new record has lower version of existing record so sending error message
+2020-06-17 15:07:02.104  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:07:02.109  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:07:02.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:07:02.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:07:02.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:07:52.104  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:07:52.113  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:07:52.114  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:07:52.114  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:07:52.115  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:07:52.852  INFO 13712 --- [http-nio-8080-exec-1] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:07:52.853  INFO 13712 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:07:52.856  INFO 13712 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:07:52.856  INFO 13712 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : existing record and new record have same version so updating existing record with new record into database
+2020-06-17 15:08:42.105  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:08:42.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:08:42.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:08:42.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:08:42.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:09:32.104  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:09:32.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:09:32.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:09:32.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:09:32.113  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:10:22.104  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:10:22.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:10:22.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:10:22.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:10:22.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:11:12.103  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:11:12.107  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:11:12.108  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:11:12.109  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:11:12.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:12:02.104  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:12:02.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:12:02.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:12:02.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:12:02.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:12:52.104  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:12:52.109  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:12:52.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:12:52.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:12:52.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:13:42.105  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:13:42.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:13:42.113  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:13:42.113  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:13:42.114  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:14:32.105  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:14:32.109  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:14:32.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:14:32.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:14:32.112  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:15:22.103  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:15:22.109  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:15:22.109  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:15:22.110  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:15:22.111  INFO 13712 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:37:51.021  INFO 11516 --- [main] c.d.t.TradestoreApplicationTests         : Starting TradestoreApplicationTests on VAIO with PID 11516 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 15:37:51.035  INFO 11516 --- [main] c.d.t.TradestoreApplicationTests         : No active profile set, falling back to default profiles: default
+2020-06-17 15:37:54.503  INFO 11516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-17 15:37:54.832  INFO 11516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 259ms. Found 1 JPA repository interfaces.
+2020-06-17 15:37:57.049  INFO 11516 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:37:57.115  INFO 11516 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-17 15:37:57.228  INFO 11516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-17 15:37:57.737  INFO 11516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-17 15:37:58.178  INFO 11516 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-17 15:38:00.173  INFO 11516 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-17 15:38:01.185  INFO 11516 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-17 15:38:01.448  WARN 11516 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-17 15:38:03.204  INFO 11516 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-17 15:38:05.512  INFO 11516 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2020-06-17 15:38:05.827  INFO 11516 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-17 15:38:07.226  INFO 11516 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-17 15:38:07.263  INFO 11516 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 15:38:08.774  INFO 11516 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-17 15:38:08.811  INFO 11516 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:38:08.829  INFO 11516 --- [main] c.d.t.TradestoreApplicationTests         : Started TradestoreApplicationTests in 19.261 seconds (JVM running for 24.83)
+2020-06-17 15:38:10.293  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:38:10.294  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:38:10.294  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : new record has lower version of existing record so sending error message
+2020-06-17 15:38:10.299  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:38:10.300  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:38:10.300  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : existing record with lower version id  so inserting new record into database
+2020-06-17 15:38:10.303  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:38:10.304  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:38:10.304  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : existing record and new record have same version so updating existing record with new record into database
+2020-06-17 15:38:10.308  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT2
+2020-06-17 15:38:10.308  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : Record with new Trade id so inserting into databse
+2020-06-17 15:38:10.311  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT2
+2020-06-17 15:38:10.311  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT2
+2020-06-17 15:38:10.311  INFO 11516 --- [main] c.d.t.service.TradeStoreServiceImpl      : existing record and new record have same version so updating existing record with new record into database
+2020-06-17 15:38:10.326  INFO 11516 --- [main] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:38:10.327  INFO 11516 --- [main] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:38:10.328  INFO 11516 --- [main] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:38:10.329  INFO 11516 --- [main] c.db.tradestore.job.TradeStoreScheduler  : Found trade with expired maturity date::16/06/2019, so updating database as expired record
+2020-06-17 15:38:10.557  INFO 11516 --- [main] c.d.t.c.TradeStoreContollerTest          : Starting TradeStoreContollerTest on VAIO with PID 11516 (started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 15:38:10.561  INFO 11516 --- [main] c.d.t.c.TradeStoreContollerTest          : No active profile set, falling back to default profiles: default
+2020-06-17 15:38:11.389  INFO 11516 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:38:11.700  INFO 11516 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-06-17 15:38:11.700  INFO 11516 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-06-17 15:38:11.724  INFO 11516 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 24 ms
+2020-06-17 15:38:11.782  INFO 11516 --- [main] c.d.t.c.TradeStoreContollerTest          : Started TradeStoreContollerTest in 1.439 seconds (JVM running for 27.783)
+2020-06-17 15:38:12.169  INFO 11516 --- [main] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:38:12.229  INFO 11516 --- [main] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:38:12.261  INFO 11516 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:38:12.267  INFO 11516 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 15:38:12.268  INFO 11516 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-06-17 15:38:12.306  INFO 11516 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-17 15:38:12.307  INFO 11516 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:38:12.308  INFO 11516 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-17 15:38:12.323  INFO 11516 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-17 15:40:11.625  INFO 13716 --- [main] com.db.tradestore.TradestoreApplication  : Starting TradestoreApplication on VAIO with PID 13716 (E:\AWS_client\Interviews\DB\tradestore\tradestore\target\classes started by user in E:\AWS_client\Interviews\DB\tradestore\tradestore)
+2020-06-17 15:40:11.630  INFO 13716 --- [main] com.db.tradestore.TradestoreApplication  : No active profile set, falling back to default profiles: default
+2020-06-17 15:40:13.036  INFO 13716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-17 15:40:13.177  INFO 13716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122ms. Found 1 JPA repository interfaces.
+2020-06-17 15:40:15.458  INFO 13716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-17 15:40:15.497  INFO 13716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-17 15:40:15.497  INFO 13716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 15:40:16.041  INFO 13716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-17 15:40:16.041  INFO 13716 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4320 ms
+2020-06-17 15:40:16.165  INFO 13716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-17 15:40:16.494  INFO 13716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-17 15:40:16.506  INFO 13716 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2020-06-17 15:40:16.904  INFO 13716 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:40:16.923  INFO 13716 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-17 15:40:17.056  INFO 13716 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-17 15:40:17.170  WARN 13716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-17 15:40:17.223  INFO 13716 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-17 15:40:17.618  INFO 13716 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-17 15:40:17.957  INFO 13716 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-17 15:40:18.210  INFO 13716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 15:40:18.217  INFO 13716 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-17 15:40:19.360  INFO 13716 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-17 15:40:19.375  INFO 13716 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-17 15:40:19.978  INFO 13716 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-17 15:40:19.996  INFO 13716 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:40:20.002  INFO 13716 --- [main] com.db.tradestore.TradestoreApplication  : Started TradestoreApplication in 9.54 seconds (JVM running for 10.549)
+2020-06-17 15:40:42.551  INFO 13716 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 15:40:42.552  INFO 13716 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-17 15:40:42.566  INFO 13716 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-06-17 15:40:42.729  INFO 13716 --- [http-nio-8080-exec-3] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:40:42.731  INFO 13716 --- [http-nio-8080-exec-3] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:40:42.755  INFO 13716 --- [http-nio-8080-exec-3] c.d.t.service.TradeStoreServiceImpl      : Record with new Trade id so inserting into databse
+2020-06-17 15:40:50.436  INFO 13716 --- [http-nio-8080-exec-1] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:40:50.436  INFO 13716 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:40:50.455  INFO 13716 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:40:50.455  INFO 13716 --- [http-nio-8080-exec-1] c.d.t.service.TradeStoreServiceImpl      : existing record and new record have same version so updating existing record with new record into database
+2020-06-17 15:40:58.520  INFO 13716 --- [http-nio-8080-exec-7] c.d.t.controller.TradeStoreContoller     : Checking Maturity date with current date
+2020-06-17 15:40:58.520  INFO 13716 --- [http-nio-8080-exec-7] c.d.t.service.TradeStoreServiceImpl      : checking existing record into database for tradeIDT1
+2020-06-17 15:40:58.523  INFO 13716 --- [http-nio-8080-exec-7] c.d.t.service.TradeStoreServiceImpl      : existing record found into database for tradeIDT1
+2020-06-17 15:40:58.523  INFO 13716 --- [http-nio-8080-exec-7] c.d.t.service.TradeStoreServiceImpl      : new record has lower version of existing record so sending error message
+2020-06-17 15:41:09.994  INFO 13716 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:41:09.997  INFO 13716 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:41:59.993  INFO 13716 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:41:59.997  INFO 13716 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
+2020-06-17 15:42:49.993  INFO 13716 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Retrieving all non expired recoreds to check maturity date
+2020-06-17 15:42:49.998  INFO 13716 --- [scheduling-1] c.db.tradestore.job.TradeStoreScheduler  : Updating expire flag if maturity date is null, blank or less then todays date
